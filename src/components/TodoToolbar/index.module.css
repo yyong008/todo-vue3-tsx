@@ -1,0 +1,52 @@
+.toolbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0px 10px;
+  background-color: #fff;
+  color: #777;
+}
+
+.remain span{
+  font-weight: 600;
+}
+
+.remain:hover {
+  color: cyan;
+}
+
+
+.ops {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.ops div + div {
+  margin-left: 20px;
+}
+
+.ops div:not(.active):hover {
+  color: cyan;
+}
+
+.clear {
+  line-height: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.clear:hover {
+  color: cyan;
+}
+
+.ops div, .active {
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.active {
+  border: 1px solid cyan;
+  color: #fff;
+  background-color: cadetblue;
+}

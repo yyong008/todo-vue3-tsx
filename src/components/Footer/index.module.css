@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 65px auto 0;
+  color: #bfbfbf;
+  font-size: 10px;
+  text-shadow: 0 1px 0 rgb(255 255 255 / 50%);
+  text-align: center;
+}
+
+.desc {
+  margin-bottom: 8px;
+}
